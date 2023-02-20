@@ -1,0 +1,24 @@
+.imagesPreviewContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.imagePreview {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagePreview img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.closeButton {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    cursor: pointer;
+    color: #ffffff;
+}
